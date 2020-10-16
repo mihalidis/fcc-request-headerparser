@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 
 // your first API endpoint... 
 app.get("/api/whoami", function (req, res) {
-  var kimsinSen = req.query.whoami;
+  var kimsinSen = req.ips;
   res.json({greeting: kimsinSen});
 });
 
