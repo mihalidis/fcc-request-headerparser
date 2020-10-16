@@ -1,3 +1,4 @@
+// görmem gereken cevap {"ipaddress":"88.227.57.54","language":"tr-TR","software":"Windows"
 // server.js
 // where your node app starts
 
@@ -21,8 +22,8 @@ app.get("/", function (req, res) {
 
 // your first API endpoint... 
 app.get("/api/whoami", function (req, res) {
-  var kimsinSen = req.ips;
-  res.json({greeting: kimsinSen});
+ 
+  res.json({"ipaddress": "birşey", "language":"birşeyler","software":"birşeyler"});
 });
 
 
